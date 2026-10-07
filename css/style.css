@@ -54,15 +54,40 @@ h1, h2{
   padding: 4rem;
   background: radial-gradient(55% 60% at 90% 25%, rgba(255, 212, 212, 0.8), transparent),
   radial-gradient(45% 55% at 0 100%, rgba(189, 216, 164, 0.6), transparent);
+  font-family: Montserrat;
 }
 
 .secao-principal h1{
   font-size: 4.75rem;
-  color: #8F5C0E;;
+  color: #8F5C0E;
 }
 
 .secao-principal p{
   font-size: 1.25rem;
-  font-weight: 100;
+  font-weight: 290;
   margin-top: 1.5rem;
+}
+
+.secao{
+  padding: 4rem;
+   background-color: #E4D9DC;
+   font-family: Montserrat;
+}
+.secao h2{
+     color: #8F5C0E;
+     font-size: 3rem;
+}
+
+.secao h3{
+  font-family: Sacramento;
+  color: #8F5C0E;
+  font-size: 2.2rem;
+}
+
+.cartao-missao{
+  background-color: #FFF;
+  border-left: 6px solid #B07818;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(143, 92, 14, 0.1);
+  border-radius: 0.5rem;
 }
