@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat.woff) format("woff");
+}
+
+@font-face {
+  font-family: Sacramento;
+  src: url(../fonts/Sacramento.woff) format("woff");
+}
+
+body{
+    font-family: Montserrat;
+    color: #3A3327;
+    background-color: #FFFDFB;
+}
+
+h1, h2{
+    font-family: Sacramento;
+    color: #8F5C0E;
+    font-weight: 400;
+    line-height: 1.7
+}
+
+.topo{
+  border-bottom: 1px solid #E4D9DC;
+}
+
+.topo .nav-link{
+  color: #3A3327;
+  font-weight: 500;
+}
+
+.topo .nav-link:hover{
+  color: #8F5C0E;
+}
+
+.btn-action {
+  background: #FEDA18;
+  border: 2px solid #B07818;
+  border-color: #FEDA18;
+  color: #3A3327;
+  border-radius: 55rem;
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+}
+
+.btn-action:hover {
+  background: #fff;
+  border-color: #B07818;  
+  color: #8F5C0E;
+}
