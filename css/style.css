@@ -70,7 +70,7 @@ h2 {
   font-size: 1.25rem;
   font-weight: 290;
   margin-top: 1.5rem;
-}
+}  
 
 .secao-fundo-lilas {
   padding: 5rem 0;
@@ -79,7 +79,7 @@ h2 {
 
 .secao-fundo-lilas h2 {
   color: #8F5C0E;
-  font-size: 3.3rem;
+  font-size: 4rem;
 }
 
 .secao-fundo-lilas h3 {
@@ -114,7 +114,7 @@ h2 {
 
 .secao-fundo-verde {
   padding: 5rem 0;
-  background-color: #e4f7d4;
+  background-color: #e6f1de;
   margin-top: 5rem;
 }
 
@@ -137,4 +137,16 @@ h2 {
   font-weight: 700;
   color: #8F5C0E;
   display: block;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista li {
+  align-items: left;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
