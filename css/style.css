@@ -26,6 +26,14 @@ h2 {
   font-weight: 400;
 }
 
+#sobre{
+  padding-top: 6rem;
+}
+
+#servicos{
+  padding-top: 6rem;
+}
+
 .topo {
   border-bottom: 1px solid #E4D9DC;
 }
@@ -56,7 +64,7 @@ h2 {
 }
 
 .secao-principal {
-  padding: 4rem 0;
+  padding: 6rem 0;
   background: radial-gradient(55% 60% at 90% 25%, rgba(255, 212, 212, 0.8), transparent),
     radial-gradient(45% 55% at 0 100%, rgba(189, 216, 164, 0.6), transparent);
 }
@@ -195,4 +203,39 @@ h2 {
 .form-control:focus {
   border-color: #B07818;
   box-shadow: 0 0 0 .25rem rgba(224, 176, 80, 0.35);
+}
+
+footer{
+  background-color: #EAD9DC;
+  padding: 3rem 0 1.5rem;
+  margin-top: 2.5rem;
+}
+footer a{
+  color: #3A3327;
+}
+
+footer a:hover{
+  color: #E0B050;
+}
+
+.wpp {
+  position: fixed;
+  right: 1rem;
+  bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  z-index: 1030;
+  display: grid;
+  place-items: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  font-size: 1.9rem;
+  box-shadow: 0 .4rem 1rem rgba(0, 0, 0, .25);
+  transition: transform .2s
+}
+
+.wpp:hover {
+  transform: scale(1.08);
+  color: #FFF;
 }
