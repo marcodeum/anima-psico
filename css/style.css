@@ -164,16 +164,35 @@ h2 {
   color: #8F5C0E;
 }
 
-.fundo{
+.fundo {
   width: 3rem;
   height: 3rem;
+  flex-shrink: 0;        
+  display: grid;
+  place-items: center;   
   border-radius: 50%;
-  font-size: 1.3rem;
-  place-items: center;
+}
+
+.texto {
+  min-width: 0;              
+  overflow-wrap: anywhere;   
 }
 
 .secao-contato h2{
   font-size: 4rem;
   padding: 1rem 0;
   margin-top: 5rem;
+}
+
+.formulario {
+  background: #fff;
+  border-radius: 1.75rem;
+  padding: 2rem;
+  box-shadow: 0 .5rem 1.5rem rgba(143, 92, 14, 0.2);
+  margin-top: 5rem;
+}
+
+.form-control:focus {
+  border-color: #B07818;
+  box-shadow: 0 0 0 .25rem rgba(224, 176, 80, 0.35);
 }
