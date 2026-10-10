@@ -41,10 +41,13 @@ h2 {
 .topo .nav-link {
   color: #3A3327;
   font-weight: 500;
+  transition: ease 0.3s;
 }
 
 .topo .nav-link:hover {
   color: #8F5C0E;
+  transform: translateY(-0.25rem);
+  transition: ease 0.3s;
 }
 
 .btn-action {
@@ -55,12 +58,14 @@ h2 {
   border-radius: 50rem;
   padding: 0.75rem 1.75rem;
   font-weight: 600;
+  transition: ease 0.3s;
 }
 
 .btn-action:hover {
   background: #fff;
   border-color: #B07818;
   color: #8F5C0E;
+  transition: ease 0.3s;
 }
 
 .secao-principal {
@@ -166,10 +171,13 @@ h2 {
   margin-bottom: 1.1rem;
   color: #3A3327;
   text-decoration: none;
+  transition: ease 0.3s;
+  
 }
 
 .lista-contato a:hover{
   color: #8F5C0E;
+  transition: ease 0.3s;
 }
 
 .fundo {
@@ -200,9 +208,14 @@ h2 {
   margin-top: 5rem;
 }
 
+.form-control{
+  transition: ease 0.3s;
+}
+
 .form-control:focus {
   border-color: #B07818;
   box-shadow: 0 0 1rem 0.25rem rgba(224, 176, 80, 0.35);
+  transition: ease 0.3s;
 }
 
 footer{
@@ -212,10 +225,12 @@ footer{
 }
 footer a{
   color: #3A3327;
+  transition: ease 0.3s;
 }
 
 footer a:hover{
   color: #E0B050;
+  transition: ease 0.3s;
 }
 
 .wpp {
@@ -232,7 +247,7 @@ footer a:hover{
   color: #fff;
   font-size: 1.9rem;
   box-shadow: 0 .4rem 1rem rgba(0, 0, 0, .25);
-  transition: transform 0.2s
+  transition: ease 0.3s;
 }
 
 .wpp img{
