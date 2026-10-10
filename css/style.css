@@ -100,7 +100,7 @@ h2 {
   background-color: #FFF;
   border-left: 6px solid #B07818;
   padding: 2.2rem;
-  box-shadow: 0 0.5rem 1.5rem rgba(143, 92, 14, 0.2);
+  box-shadow: 1.5rem 1.5rem 1rem 0.5rem rgba(143, 92, 14, 0.2);
   border-radius: 0.5rem;
 }
 
@@ -196,13 +196,13 @@ h2 {
   background: #fff;
   border-radius: 1.75rem;
   padding: 2rem;
-  box-shadow: 0 .5rem 1.5rem rgba(143, 92, 14, 0.2);
+  box-shadow: 0 0 2rem 0.5rem rgba(143, 92, 14, 0.2);
   margin-top: 5rem;
 }
 
 .form-control:focus {
   border-color: #B07818;
-  box-shadow: 0 0 0 .25rem rgba(224, 176, 80, 0.35);
+  box-shadow: 0 0 1rem 0.25rem rgba(224, 176, 80, 0.35);
 }
 
 footer{
@@ -232,10 +232,16 @@ footer a:hover{
   color: #fff;
   font-size: 1.9rem;
   box-shadow: 0 .4rem 1rem rgba(0, 0, 0, .25);
-  transition: transform .2s
+  transition: transform 0.2s
+}
+
+.wpp img{
+  width: 2rem;
+  height: 2rem;
 }
 
 .wpp:hover {
   transform: scale(1.08);
   color: #FFF;
+  transition: ease 0.2s;
 }
